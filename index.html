@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Registration</h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="First Name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Phone Number" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Your Email" required>
+            </div>
+            <div class="input-box-label">
+                <label for="">Your Gender</label>
+                <select name="gender" required>
+                    <option value="none">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="input-box-label">
+                <label for="">Date of Birth</label>
+                <input type="date" required>
+            </div>
+            <div class="input-box-label">
+                <label for="">Favorite Color</label>
+                <input type="color" required>
+            </div>
+            <div class="policy">
+                <input type="checkbox" required>
+                <h3>I accept all Terms & Conditions</h3>
+            </div>
+            <div class="input-box-button">
+                <input type="submit" value="Register Now">
+            </div>
+            <div class="text">
+                <h3>Already have an Account? <a href="./login.html">Login</a> </h3>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
